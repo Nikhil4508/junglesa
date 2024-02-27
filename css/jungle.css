@@ -1,0 +1,402 @@
+@font-face {
+    font-family: bodyfont;
+    src: url(/htdocs/assets/Agbalumo-Regular.ttf);
+}
+@font-face {
+    font-family: herofont;
+    src: url(/htdocs/assets/The\ Lost\ Dungeon.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bodyfont;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/htdocs/images/jungle11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    /* background-image: url(/new/jungle11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+.logoname{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px 20px 10px 0;
+    margin-top: 50px;
+}
+.logo-box{
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+     
+}
+
+.logo-img {
+    width: auto;
+    height: 80px;
+    position: relative;
+    left: 10px;
+}
+.header{
+    width: 100%;
+    height: 12vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5%;
+}
+/* nav{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px 20px 10px 0;
+    margin-top: 50px;
+} */
+.navlink{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navlink a {
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+    color: black;
+    font-family: bodyfont;
+}
+ .home{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px ;
+    margin-top: 50px;
+} 
+.about{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px ;
+    margin-top: 50px;
+} 
+.jungleadventure{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px ;
+    margin-top: 50px;
+} 
+nav a{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    color: black;
+    font-family: bodyfont;
+
+}
+
+/* .btn{
+    background-color:rgb(155,230,210) ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+} */
+.jungleadventure:hover{
+    background-color:rgb(202,244,232) ;
+    border-radius: 20px;
+
+}
+.home:hover{
+    background-color:rgb(202,244,232) ;
+    border-radius: 20px;
+
+}
+.about:hover{
+    background-color:rgb(202,244,232) ;
+    border-radius: 20px;
+
+}
+
+.main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   line-height: 7rem;
+   margin: 5rem auto;
+   text-align: center;
+   
+}
+#herotext{
+    font-size: 10rem;
+    font-family:herofont ;
+    /* background-color:linear-gradient(to bottom right,#009245,#FCEE21); */
+    /* color:linear-gradient(to bottom right,#009245,#FCEE21); */
+    
+    background: -webkit-linear-gradient(#009245, #FCEE21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    
+}
+#subhero-text{
+    font-size: 10rem;
+    font-family:herofont ;
+    background: -webkit-linear-gradient(#009245, #FCEE21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+
+}
+#tagline{
+    font-family: herofont;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    
+}
+/* h1 {
+    
+    background: -webkit-linear-gradient(#009245, #FCEE21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+  /* hamburger start here  */
+
+.num{
+    font-family: bodyfont;
+    margin: 15rem auto;
+    text-align: center;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.num a{
+    color: black;
+}
+#slide-menu-home{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px ;
+    margin:0 14rem ;
+}
+#slide-menu-jungleadventure{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px ;
+    margin:1rem 14rem ;
+
+}
+#slide-menu-about{
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 12.9px rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    padding: 10px ;
+    margin:0 14rem;
+
+}
+
+#slide-menu-home:hover{
+    background-color:rgb(202,244,232) ;
+    border-radius: 20px;
+}
+#slide-menu-jungleadventure:hover{
+    background-color:rgb(202,244,232) ;
+    border-radius: 20px;
+}
+#slide-menu-about:hover{
+    background-color:rgb(202,244,232) ;
+    border-radius: 20px;
+}
+.slide{
+
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transform: translateX(-100%);
+    transition: transform 250ms ease-in-out;
+    backdrop-filter: blur(20px);
+    background: transparent;
+
+}
+
+a{
+    margin-top:20px ;
+    color: blue;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+input{
+
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+
+}
+
+.toggle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    backdrop-filter: blur(20px);
+    background: transparent;
+    box-shadow:  0.7px 1.9px 10.9px rgba(0, 0, 0,0.5);
+    z-index: 11;
+    cursor: pointer;
+    border-radius: 2px;
+    top: 3rem;
+    right: 4rem;
+    display: none;
+}
+
+.toggle .common{
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.toggle .top_line{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.toggle .middle_line{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.toggle .bottom_line{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+input:checked ~ .toggle .top_line{
+    left: -1px;
+    top: 22px;
+
+    width: 50px;
+    transform: rotate(45deg);
+
+}
+
+input:checked ~ .toggle .middle_line{
+    opacity: 0;
+    transform: translateX(20px);
+    
+}
+input:checked ~ .toggle .bottom_line{
+    left: -1px;
+    top: 22px;
+    
+    width: 50px;
+    transform: rotate(-45deg);
+    
+}
+
+input:checked ~ .slide{
+    transform: translate(0);
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+/* hamburger end here  */
+
+@media screen and (max-width:768px)  {
+    .logo-box h1{
+        display: none;
+    }
+    .home-navbar{
+    display: none;
+   }
+
+    .toggle{
+        display: block;
+        /* top: 4.6rem; */
+        right: 3rem;
+    }
+    .num a{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    .main{
+        text-align: center;
+        
+    }
+    #subhero-text{
+        line-height: 200px;
+    }
+
+}
+@media screen and (max-width:1079px) and (min-width:768px) {
+    .logo-box h1{
+        display: none;
+    }
+    .home-navbar{
+        display: none;
+       }
+    .toggle{
+        display: block;
+        /* top: 4.6rem; */
+        right: 4rem;
+    }
+    .main{
+        text-align: center;
+    }
+    .num a{
+        width: 50%;
+        font-size: 1.5rem;
+    }
+    #subhero-text{
+        line-height: 200px;
+    }
+}
+
+@media screen and (max-width:2300px) and (min-width:1080px) {
+   
+    .toggle{
+        display: none;
+    }
+    
+}
